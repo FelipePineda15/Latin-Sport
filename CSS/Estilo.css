@@ -1,0 +1,74 @@
+html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     background: url(Imagenes/heroBg.jpg);
+     background-size: cover;
+}
+ 
+.slider {
+     width: 100%;
+     position: absolute;
+     top: 54%;
+     transform: translateY(-50%);
+}
+ 
+.slick-slide:focus {
+     outline: none;
+}
+ 
+.slick-slide img {
+     width: 52%;
+}
+ 
+.slick-slide {
+     transition: all ease-in-out 1s;
+     opacity: .2;
+}
+ 
+.slick-active {
+     opacity: .2;
+}
+ 
+.slick-current {
+     opacity: 1;
+}
+ 
+h3 {
+     font-family: Poppins;
+     color: #f12929;
+     text-transform: uppercase;
+     margin-bottom: 0;
+}
+ 
+p {
+     margin-top: 4px;
+     font-family: Poppins;
+     color: grey;
+     text-transform: uppercase;
+}
+ 
+.logo {
+     position: absolute;
+     margin: 2em;
+     float: left;
+}
+ 
+.menu-btn {
+     position: relative;
+     float: right;
+     margin: 2em;
+}
+ 
+.bottom {
+     position: absolute;
+     bottom: 1em;
+     left: 2em;
+}
+ 
+.bottom p {
+     color: #fff;
+     font-weight: 400;
+     background: #f12929;
+}
