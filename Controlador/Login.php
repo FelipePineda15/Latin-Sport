@@ -26,3 +26,4 @@ if(!empty($_POST))
 		
 		$Error[] = login($usuario, $password);	
 	}
+?>
