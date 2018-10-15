@@ -1,16 +1,4 @@
-<?php
 
-	session_start();
-
-	include './Clases/Conexion.php';
-	include "./Clases/Usuario.php";
-
-	$ObjUsuario = new Usuario();
-	$ObjConexion = new Conexion();
-	$Conexion = $ObjConexion->Conexion();	
-	$Datos = $ObjUsuario->Consultar($Conexion);
-
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -61,7 +49,7 @@
             <div class="caja">
                 <div class="container">
                     <h1 class="">
-                    	<a class="" href="">
+                    	<a class="" href="Index.php">
                         <img src="CSS/Imagenes/Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Publicaciones </a>
                     </h1>                
             	</div>
@@ -103,7 +91,7 @@
   			</div>
 			<p>
                 <div class="caja">
-                    <input type="submit" class="btn btn-primary mb-2">          
+                    <input type="submit" class="" value="Enviar" style="background: red"></a>
                 </div>
             </p>
 			<div class="jumbotron jumbotron-fluid">

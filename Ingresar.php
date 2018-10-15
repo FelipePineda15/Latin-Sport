@@ -32,7 +32,7 @@
     <div class="login-box">
       <img src="CSS/Imagenes/Logo.jpg" class="avatar" alt="Avatar Image">
       <h1>Login Here</h1>
-      <form action="./Controlador/Login.php" method="post">
+      <form action="Index.php" method="post">
         <!-- USERNAME INPUT -->
         <label for="Username">Username</label>
         <input type="text" placeholder="" required="" name="Username" title="Username">

@@ -1,8 +1,8 @@
 <?php
 
-	/** Labores del Administrador de Contenido
-	* 
-	*/
+	/** 
+	Labores del Administrador de Contenido
+	**/
 	class Usuario{
 		
 		public function SubirContenido($Conexion, $Asunto){
